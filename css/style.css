@@ -329,7 +329,7 @@ section.white-papers{padding: 20px 0;}
 
 
 /*case-studies*/
-section.case-studies {padding: 40px 0;}
+section.case-studies {padding: 0 0 40px;}
 section.case-studies h4, section.case-studies p{margin-left: -40px;}
 
 /*company-page*/
