@@ -531,11 +531,11 @@ section.comments .form-control{margin-bottom: 20px;}
   blockquote{margin: 10px 40px;}
   .navbar-brand{float: none; display: block;text-align: center;}
   .navbar-brand>img{display: inline-block;}
-
   #header #top ul{float: none;text-align: center;}
   .navbar-collapse{display: block;visibility: visible;}
   #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{display: block!important;padding: 2px 22px!important;}
   #mega-menu-wrap-primary .mega-schedule > a{margin-left: 0!important ;}
+    .btn-primary, .btn-primary:focus, .btn-primary:active{margin-bottom:30px;  }
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
@@ -553,8 +553,7 @@ section.comments .form-control{margin-bottom: 20px;}
   section.sales-force h2{text-align: center;}
   section.what-we-do .leading-marketing .btn{padding: 8px 10px;}
   section.why-full-circle .cta{width: 150px; text-align: center;display: block;margin: 10px auto 30px;}
-  .btn-primary, .btn-primary:focus, .btn-primary:active{margin-bottom:30px;
-  }
+  .btn-primary, .btn-primary:focus, .btn-primary:active{margin-bottom:30px;  }
     
 }
 @media screen and (max-width: 320px){
