@@ -137,11 +137,9 @@ blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 }
 #mega-menu-wrap-primary .mega-schedule > a:hover, #mega-menu-wrap-primary .mega-schedule > a:focus{
   background-color: #ed7624!important;
-  background-image: -webkit-linear-gradient(bottom, #E96719, #ed7624 78%)!important;
-  background-image: -moz-linear-gradient(bottom, #e96719, #ed7624 78%)!important;
-  background-image: -o-linear-gradient(bottom, #e96719, #ed7624 78%)!important;
-  background-image: -ms-linear-gradient(bottom, #e96719, #ed7624 78%)!important;
-  background-image: linear-gradient(to top, #E96719, #ed7624 78%)!important;
+  background-image: -moz-linear-gradient( -90deg, rgb(237,118,36) 0%, rgb(224,103,50) 81%, rgb(210,88,64) 100%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(237,118,36) 0%, rgb(224,103,50) 81%, rgb(210,88,64) 100%);
+  background-image: -ms-linear-gradient( -90deg, rgb(237,118,36) 0%, rgb(224,103,50) 81%, rgb(210,88,64) 100%);
   border-color: #ed7624!important;
   color: #FFF!important;
   border-color: #E96719!important;
