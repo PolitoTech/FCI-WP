@@ -26,6 +26,15 @@ add_action( 'init', 'full_circle_register_menus' );
 */
 function full_circle_widgets_init() {
 
+        register_sidebar( array(
+                'name'          => __( 'Blog sidebar', 'full_circle' ),
+                'id'            => 'blog-sidebar',
+                'before_widget' => '<section id="%1$s" class="widget %2$s">',
+                'after_widget'  => '</section>',
+                'before_title'  => '<h3>',
+                'after_title'   => '</h3>' 
+        ) );
+
         // Footer
         register_sidebar( array(
                 'name'          => __( 'Footer widget area 1', 'full_circle' ),
