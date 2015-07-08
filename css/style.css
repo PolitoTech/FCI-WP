@@ -365,6 +365,7 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
 #news-page article:last-of-type{padding-bottom: 0;}
 #news-page article h1{font-size: 16px;font-family: 'robotomedium', sans-serif;}
 #news-page article h4 a{color: #7DA0C4;text-transform: uppercase;}
+#news-page article h4 i{color: #4d6ba6;}
 #news-page article h5{font-size: 12px;text-transform: uppercase;}
 
 .pager li>a, .pager li>span{background-color: transparent;border: none;text-transform: uppercase;font-size: 12px;font-family: 'robotomedium', sans-serif;}
