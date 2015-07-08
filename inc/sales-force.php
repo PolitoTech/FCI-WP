@@ -6,9 +6,9 @@
         <h2 class="white">Built Natively on the Salesforce1 Platform</h2>
         <ul class="list-unstyled">
           <li>• Works out of the box with campaigns, leads, contacts and opportunities</li>
-          <li><a href="#">• All marketing and sales data is in the same system</a></li>
-          <li><a href="#">• Easy to configure and seamless upgrades</a></li>
-          <li><a href="#">• Compatible with the leading marketing automation systems</a></li>
+          <li>• All marketing and sales data is in the same system</li>
+          <li>• Easy to configure and seamless upgrades</li>
+          <li>• Compatible with the leading marketing automation systems</li>
         </ul>
       </div>
     </div>
