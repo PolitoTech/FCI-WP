@@ -544,7 +544,7 @@ section.comments .form-control{margin-bottom: 20px;}
   h2{font-size: 24px;}
   section.banner h1{font-size: 40px;}
   section.banner h3 {font-size: 18px;}
-  section.banner h3{font-size: 24px;margin: 50px 10px;}
+  section.banner h3{font-size: 24px;margin: 50px auto;}
   section.banner{line-height: 1.4;padding: 20px 0;}
   section.data-driven blockquote{margin: 0 30px 40px;}
   section.marketing-data-exprerts{padding: 30px 0;}
