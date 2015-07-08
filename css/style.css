@@ -194,7 +194,7 @@ background-size: cover;}
 section.banner .container{  vertical-align: middle; display: table-cell;}
 section.banner h1{font-weight: 300; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;margin-bottom: 50px;}
 section.banner h2{font-size: 27px;color: #fff;margin: 0;}
-section.banner h3{font-size: 30px;margin: 65px 0 50px; font-family: 'robotolight', sans-serif;}
+section.banner h3{font-size: 30px;margin: 65px auto 50px; font-family: 'robotolight', sans-serif; width: 65%;}
 section.banner .btn{font-size: 20px;padding: 10px 35px;}
 
 /*what-we-do*/
