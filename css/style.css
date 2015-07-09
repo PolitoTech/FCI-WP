@@ -193,7 +193,7 @@ background-image: -ms-linear-gradient( 90deg, rgb(77,107,166) 0%, rgb(125,160,19
 #mega-menu-wrap-primary .learn-more h4{color: #ed7624;font-size: 14px;font-style: italic;line-height: 1.4;margin-bottom: 20px;}
 #mega-menu-wrap-primary .learn-more hr{margin: 50px 0;}
 #mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #4c6ca6; margin-bottom: 10px;}
-#mega-menu-wrap-primary .mega-current-page-ancestor a{background: #7DA0C3!important; color: #FFF!important; font-weight: normal; text-decorat}
+#mega-menu-wrap-primary .mega-current-page-ancestor > a{background: #7DA0C3!important; color: #FFF!important; font-weight: normal; text-decorat}
 
 
 /*banner*/
