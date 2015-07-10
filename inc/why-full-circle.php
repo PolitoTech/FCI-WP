@@ -57,7 +57,7 @@
         <ul>
           <li>Improve the marketing-to-sales hand off</li>
           <li>Increase deal velocity</li>
-          <li>Make sure you hit your SLAs</li>
+          <li>Visibility into SLAs</li>
         </ul>
         <a href="<?php echo bloginfo( 'url' ); ?>/solutions/sales/" class="cta">Learn More</a>
       </div>
