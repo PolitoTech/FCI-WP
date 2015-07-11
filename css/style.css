@@ -282,7 +282,7 @@ section.our-products article h4{font-size: 16px!important;line-height: 1.4;color
 /*salesforce-marketing*/
 section.salesforce-marketing{padding: 60px 0;background: url(../img/bg-salesforce-marketing.jpg) no-repeat center center;-webkit-background-size: cover; background-size: cover;}
 section.salesforce-marketing h3{color: #7DA0C4;margin-top: 40px;}
-section.salesforce-marketing p{margin: 20px 0;}
+section.salesforce-marketing p{margin: 20px 0; min-height: 110px;}
 
 /*menu-pages*/
 section.menu-pages{text-align: center;text-transform: capitalize;background-color: #ebebeb;border-bottom: 1px solid #C2C2C2;color: #4b4b4b;}
