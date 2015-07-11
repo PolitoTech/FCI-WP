@@ -6,9 +6,12 @@
 get_header(); 
 
 $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+$cat = ( get_query_var('cat') ) ? get_query_var('cat') : 0;
+
 $args = array(
    'post_type' => 'post',
    'paged'=>$paged,
+   'cat' => $cat,
    'category__in' => [19, 14, 15, 18, 17]
 );
 $wp_query = new WP_Query( $args );

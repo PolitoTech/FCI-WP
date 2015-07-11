@@ -53,7 +53,7 @@ $careers = GetPosts('career', ['order'=>'ASC']);
 
               <?php $cat = ($cat != $tmp) ? $tmp : $cat; $i++ ?>
 
-              <p><a href="#"><?php the_title(); ?></a></p>
+              <p><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></p>
 
           <?php endwhile; ?>
           <!-- post navigation -->
