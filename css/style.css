@@ -298,7 +298,7 @@ section.menu-pages li a:hover, section.menu-pages li.active a{background-color: 
 section.product-area{font-size: 16px;padding: 50px 0 0;}
 section.product-area hr{max-width: 60%;margin: 20px auto;border-color: #E2E2E2;}
 section.product-area .intro{margin-bottom: 70px;}
-section.product-area .intro p.content-height{min-height: 132px}
+section.product-area p.content-height{min-height: 132px}
 section.product-area img{margin: 30px auto 0;display: block;}
 section.product-area h3 a{font-size: 22px;color: #7DA0C4;font-weight: 200;display: inline-block;min-height: 50px;}
 section.product-area a.learn-more{font-size: 12px;color: #ed7624;font-weight: bold;text-transform: uppercase;}
