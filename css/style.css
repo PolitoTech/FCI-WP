@@ -194,7 +194,7 @@ background-image: -ms-linear-gradient( 90deg, rgb(77,107,166) 0%, rgb(125,160,19
 #mega-menu-wrap-primary .learn-more hr{margin: 50px 0;}
 #mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #4c6ca6; margin-bottom: 10px;}
 #mega-menu-wrap-primary .mega-current-page-ancestor > a{background: #7DA0C3!important; color: #FFF!important; font-weight: normal; text-decorat}
-
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu{width: 90%!important;}
 
 /*banner*/
 section.banner{display: table; width: 100%;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover;
@@ -518,7 +518,7 @@ section.comments .form-control{margin-bottom: 20px;}
   #pricing-page h4.title{height: 120px;}
   #pricing-page .resume {margin-top: 150px; }
   section.our-camera h1{font-size: 40px;}
-
+  .learn-more a.btn.btn-primary{font-size: 10px!important;}
   #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{padding: 5px!important; font-size: 13px!important;}
 }
 @media screen and (max-width: 767px){
