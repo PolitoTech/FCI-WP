@@ -6,10 +6,7 @@
     <div class="bg-blue">
       <section class="subscribe">
         <h3>Subscribe by Email</h3>
-        <form class="form-inline" action="<?php echo bloginfo( 'url' ) . '/wp-content/plugins/newsletter/do/subscribe.php' ?>" >
-            <input type="text" name="ne" class="form-control" value="" placeholder="EMAIL ADDRESS">
-            <input type="submit" class="btn btn-warning" name="" value="&rsaquo;">
-        </form>
+        <iframe src="http://go.pardot.com/l/69472/2015-07-10/px9tw" width="100%" height="100" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
       </section><!-- subscribe -->
 
       <?php dynamic_sidebar( "blog-sidebar" ); ?>

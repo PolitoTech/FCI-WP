@@ -7,11 +7,13 @@ get_header();
 
 $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $cat = ( get_query_var('cat') ) ? get_query_var('cat') : 0;
+$author = ( get_query_var('author') ) ? get_query_var('author') : 0;
 
 $args = array(
    'post_type' => 'post',
    'paged'=>$paged,
    'cat' => $cat,
+   'author' => $author,
    'category__in' => [19, 14, 15, 18, 17]
 );
 $wp_query = new WP_Query( $args );

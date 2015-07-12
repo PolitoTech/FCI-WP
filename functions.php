@@ -337,7 +337,7 @@ function my_shortcode_function($attr) {
 
     <ul class="list-inline">
     <?php foreach (get_users(['exclude' => [1, 3, 10, 12, 2]]) as $user): ?>
-        <li><a title="<?php echo $user->display_name ?>" href="#" class="blogger-img"><?php echo get_avatar($user->ID, 35) ?></a></li>
+        <li><a title="<?php echo $user->display_name ?>" href="<?php echo get_author_posts_url($user->id); ?>" class="blogger-img"><?php echo get_avatar($user->ID, 35) ?></a></li>
     <?php endforeach ?>
     </ul>
     <form action="#" class="form-inline">
