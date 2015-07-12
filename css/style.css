@@ -524,6 +524,7 @@ section.comments .form-control{margin-bottom: 20px;}
   section.learn-marketing-data h4{min-height: 120px}
   section.why-full-circle ul{min-height: 255px}
   section.salesforce-marketing p{min-height: 160px}
+  section.product-area p.content-height {min-height: 200px; }
 }
 @media screen and (max-width: 767px){
   .navbar-toggle{background-color: #ed7624; display: none;}
@@ -554,6 +555,7 @@ section.comments .form-control{margin-bottom: 20px;}
   #mega-menu-wrap-primary .mega-schedule > a{margin-left: 0!important ;}
   .btn-primary, .btn-primary:focus, .btn-primary:active{margin-bottom:30px;  }
   
+  section.product-area p.content-height,
   section.learn-marketing-data h4,
   section.why-full-circle ul,
   section.salesforce-marketing p{min-height: inherit}
