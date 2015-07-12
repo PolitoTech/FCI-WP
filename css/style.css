@@ -520,6 +520,7 @@ section.comments .form-control{margin-bottom: 20px;}
   section.our-camera h1{font-size: 40px;}
   .learn-more a.btn.btn-primary{font-size: 10px!important;}
   #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{padding: 5px!important; font-size: 13px!important;}
+  section.learn-marketing-data h4{min-height: 120px}
 }
 @media screen and (max-width: 767px){
   .navbar-toggle{background-color: #ed7624; display: none;}
