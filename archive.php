@@ -37,7 +37,7 @@ $wp_query = new WP_Query( $args );
                 <?php  ?>
                 <ul class="list-inline article-info">
                   <li class="blogger-img"><?php echo get_avatar(get_the_author_meta('ID'), 25) ?></li>
-                  <li>BY <a href="#"><?php the_author(); ?> </a></li>
+                  <li>BY <a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?> </a></li>
                   <li>•</li>
                   <li><?php echo get_the_date(); ?></li>
                   <li>•</li>

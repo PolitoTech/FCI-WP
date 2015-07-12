@@ -235,7 +235,7 @@ section.sales-force a{color: #fff;}
 section.data-driven{background-color: #fff;padding: 60px 0 40px;}
 section.data-driven h2{background-color: #fff;margin-bottom: 30px;}
 section.data-driven .logos li{margin: 20px 50px;}
-section.data-driven blockquote{max-width: 720px; margin: 0 -10px 40px;font-family: 'robotolight' , sans-serif;}
+section.data-driven blockquote{max-width: 720px; font-family: 'robotolight' , sans-serif;}
 section.data-driven blockquote + img{  margin-top: -10px; margin-right: 10px;}
 section.data-driven .logo-quote{float: left;margin-right: 40px;}
 section.data-driven small{display: block;padding-left: 190px;}
