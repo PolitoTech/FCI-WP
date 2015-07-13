@@ -526,7 +526,7 @@ section.comments .form-control{margin-bottom: 20px;}
   section.salesforce-marketing p{min-height: 160px}
   section.product-area p.content-height {min-height: 200px; }
 }
-@media screen and (max-width: 767px){
+@media only screen and (max-width: 767px){
   .navbar-toggle{background-color: #ed7624; display: none;}
   .navbar-toggle span{background-color: #fff;}
   #header .navbar-nav{margin: 0;float: left;width: 100%;}
@@ -559,6 +559,9 @@ section.comments .form-control{margin-bottom: 20px;}
   section.learn-marketing-data h4,
   section.why-full-circle ul,
   section.salesforce-marketing p{min-height: inherit}
+  #mega-menu-wrap-primary #mega-menu-primary p, #mega-menu-wrap-primary #mega-menu-primary a{font-size: 12px;}
+  #mega-menu-wrap-primary .my-sub-menu li > ul{margin: 0!important;}
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item{padding: 10px!important;}
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
@@ -582,4 +585,5 @@ section.comments .form-control{margin-bottom: 20px;}
 @media screen and (max-width: 320px){
   section.banner .btn{font-size: 15px;}
 }
+
 

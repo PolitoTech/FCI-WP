@@ -17,7 +17,8 @@ $pages = get_pages($args);
     <ul class="list-inline">
       <li>our products:</li>
       <?php foreach ($pages as $page): if($page->post_parent == $the_parent_page_id) :?>
-        <li <?php echo ($page->ID == $current_page_id) ? 'class="active"' : '' ?>>
+        <?php $is_parent = in_array($page->ID, get_ancestors($current_page_id, 'page')) ?>
+        <li <?php echo ($page->ID == $current_page_id || $is_parent) ? 'class="active"' : '' ?>>
           <a href="<?php echo $page->guid ?>">
               <?php echo $page->post_title ?>
           </a>
