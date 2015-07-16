@@ -493,6 +493,13 @@ section.comments .form-control{margin-bottom: 20px;}
 .img-popup .modal-body{padding: 0;margin-bottom: -10px;overflow: hidden;border-radius: 10px;}
 .img-popup img{width: 100%;}
 
+/*flash-top*/
+#flash-top{padding: 10px 0 0;text-align: center;color: #fff; background-color: #009ca7; overflow: hidden;}
+#flash-top h3{font-weight: bold; margin: 0;padding: 0;}
+#flash-top h3 a{font-size: 15px;color: #fff; font-weight: normal;}
+#flash-top a.close{float: right; position: relative; top: -20px; right: 20px; color: #fff;font-size: 14px; opacity: 1; font-weight: normal;}
+
+
 @media screen and (max-width: 1200px){
   section.data-driven .logos li {margin: 20px 40px; }
   section.menu-pages li a{padding: 15px 7px;}

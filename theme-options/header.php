@@ -17,6 +17,11 @@
         'type' => 'text');
 
     $options[] = array(
+        'name' => __('Flash Info', 'options_check'),
+        'id' => 'flash_info',
+        'type' => 'textarea');
+
+    $options[] = array(
         'name' => __('Phone number', 'options_check'),
         'id' => 'phone_number',
         'std' => '(949) 215-1064',

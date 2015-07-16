@@ -32,6 +32,8 @@
 
   <body>
 
+    <?php echo getOption('flash_info') ?>
+
     <header id="header">
       <div class="container">
         <div class="row">
